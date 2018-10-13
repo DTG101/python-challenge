@@ -11,7 +11,7 @@ OTooley = 0
 Correy = 0
 
 # Path to collect data from the Resources folder
-pollCSV = os.path.join(r"C:\Users\Dgrimm\Desktop\PythonStuff\03 -Python\Homework\Instructions\PyPoll\Resources\election_data.csv")
+pollCSV = os.path.join(r"Resources\election_data.csv")
 
 # Read in the CSV file
 with open(pollCSV, 'r') as csvfile:

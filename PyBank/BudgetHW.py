@@ -21,7 +21,7 @@ Low_Date = 0
 Low_Date_Data = 0
 
 # Path to collect data from the Resources folder
-budgetCSV = os.path.join('C:/Users/Dgrimm/Desktop/PythonStuff/03 -Python\Homework/Instructions/PyBank/Resources/budget_data.csv')
+budgetCSV = os.path.join('Resources/budget_data.csv')
 
 # Read in the CSV file
 with open(budgetCSV, 'r') as csvfile:
